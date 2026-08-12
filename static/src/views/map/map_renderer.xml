@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="bsd_base_map.MapRenderer">
+        <div class="o_map_renderer w-100 h-100">
+            <div
+                t-ref="mapContainer"
+                class="w-100 h-100"
+                style="min-height: 500px;"
+            />
+        </div>
+    </t>
+
+</templates>
