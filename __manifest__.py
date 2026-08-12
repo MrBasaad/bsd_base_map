@@ -16,10 +16,13 @@
         'web.assets_backend':[
             'bsd_base_map/static/lib/leaflet/leaflet.css',
             'bsd_base_map/static/lib/leaflet/leaflet.js',
-
+             # MapLibre
+            'bsd_base_map/static/lib/maplibre/maplibre-gl.css',
+            'bsd_base_map/static/lib/maplibre/maplibre-gl.js',
 
             'bsd_base_map/static/src/views/map/map_arch_parser.js',
             'bsd_base_map/static/src/views/map/map_model.js',
+            'bsd_base_map/static/src/views/map/map_renderer.scss',
             'bsd_base_map/static/src/views/map/map_renderer.js',
             'bsd_base_map/static/src/views/map/map_controller.js',
             'bsd_base_map/static/src/views/map/map_view.js',

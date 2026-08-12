@@ -42,6 +42,7 @@ export class MapModel {
                             {},
                         ])
                     ),
+                    limit: 0,
                 }
             )
         );

@@ -2,12 +2,13 @@
 <templates xml:space="preserve">
 
     <t t-name="bsd_base_map.MapRenderer">
-        <div class="o_map_renderer w-100 h-100">
+        <div class="o_map_renderer">
+
             <div
                 t-ref="mapContainer"
-                class="w-100 h-100"
-                style="min-height: 500px;"
+                class="o_bsd_map_container"
             />
+
         </div>
     </t>
 
